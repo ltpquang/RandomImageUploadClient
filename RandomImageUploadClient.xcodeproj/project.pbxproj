@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FDDB80A1A9822BE0073923A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB8091A9822BE0073923A /* AppDelegate.m */; };
+		6FDDB80C1A9822BE0073923A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB80B1A9822BE0073923A /* main.m */; };
+		6FDDB80F1A9822BE0073923A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB80E1A9822BE0073923A /* ViewController.m */; };
+		6FDDB8111A9822BE0073923A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDDB8101A9822BE0073923A /* Images.xcassets */; };
+		6FDDB8141A9822BE0073923A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDDB8121A9822BE0073923A /* Main.storyboard */; };
+		6FDDB8201A9822BE0073923A /* RandomImageUploadClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB81F1A9822BE0073923A /* RandomImageUploadClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FDDB81A1A9822BE0073923A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FDDB7FB1A9822BE0073923A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDDB8021A9822BE0073923A;
+			remoteInfo = RandomImageUploadClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FDDB8031A9822BE0073923A /* RandomImageUploadClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomImageUploadClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDDB8071A9822BE0073923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDDB8081A9822BE0073923A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FDDB8091A9822BE0073923A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FDDB80B1A9822BE0073923A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FDDB80D1A9822BE0073923A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FDDB80E1A9822BE0073923A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FDDB8101A9822BE0073923A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FDDB8131A9822BE0073923A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FDDB8191A9822BE0073923A /* RandomImageUploadClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomImageUploadClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDDB81E1A9822BE0073923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDDB81F1A9822BE0073923A /* RandomImageUploadClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomImageUploadClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDDB8001A9822BE0073923A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDDB8161A9822BE0073923A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FDDB7FA1A9822BE0073923A = {
+			isa = PBXGroup;
+			children = (
+				6FDDB8051A9822BE0073923A /* RandomImageUploadClient */,
+				6FDDB81C1A9822BE0073923A /* RandomImageUploadClientTests */,
+				6FDDB8041A9822BE0073923A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FDDB8041A9822BE0073923A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDB8031A9822BE0073923A /* RandomImageUploadClient.app */,
+				6FDDB8191A9822BE0073923A /* RandomImageUploadClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FDDB8051A9822BE0073923A /* RandomImageUploadClient */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDB8081A9822BE0073923A /* AppDelegate.h */,
+				6FDDB8091A9822BE0073923A /* AppDelegate.m */,
+				6FDDB80D1A9822BE0073923A /* ViewController.h */,
+				6FDDB80E1A9822BE0073923A /* ViewController.m */,
+				6FDDB8101A9822BE0073923A /* Images.xcassets */,
+				6FDDB8121A9822BE0073923A /* Main.storyboard */,
+				6FDDB8061A9822BE0073923A /* Supporting Files */,
+			);
+			path = RandomImageUploadClient;
+			sourceTree = "<group>";
+		};
+		6FDDB8061A9822BE0073923A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDB8071A9822BE0073923A /* Info.plist */,
+				6FDDB80B1A9822BE0073923A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FDDB81C1A9822BE0073923A /* RandomImageUploadClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDB81F1A9822BE0073923A /* RandomImageUploadClientTests.m */,
+				6FDDB81D1A9822BE0073923A /* Supporting Files */,
+			);
+			path = RandomImageUploadClientTests;
+			sourceTree = "<group>";
+		};
+		6FDDB81D1A9822BE0073923A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDB81E1A9822BE0073923A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FDDB8021A9822BE0073923A /* RandomImageUploadClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDDB8231A9822BE0073923A /* Build configuration list for PBXNativeTarget "RandomImageUploadClient" */;
+			buildPhases = (
+				6FDDB7FF1A9822BE0073923A /* Sources */,
+				6FDDB8001A9822BE0073923A /* Frameworks */,
+				6FDDB8011A9822BE0073923A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomImageUploadClient;
+			productName = RandomImageUploadClient;
+			productReference = 6FDDB8031A9822BE0073923A /* RandomImageUploadClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FDDB8181A9822BE0073923A /* RandomImageUploadClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDDB8261A9822BE0073923A /* Build configuration list for PBXNativeTarget "RandomImageUploadClientTests" */;
+			buildPhases = (
+				6FDDB8151A9822BE0073923A /* Sources */,
+				6FDDB8161A9822BE0073923A /* Frameworks */,
+				6FDDB8171A9822BE0073923A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FDDB81B1A9822BE0073923A /* PBXTargetDependency */,
+			);
+			name = RandomImageUploadClientTests;
+			productName = RandomImageUploadClientTests;
+			productReference = 6FDDB8191A9822BE0073923A /* RandomImageUploadClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FDDB7FB1A9822BE0073923A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = QuangLTP;
+				TargetAttributes = {
+					6FDDB8021A9822BE0073923A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6FDDB8181A9822BE0073923A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6FDDB8021A9822BE0073923A;
+					};
+				};
+			};
+			buildConfigurationList = 6FDDB7FE1A9822BE0073923A /* Build configuration list for PBXProject "RandomImageUploadClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FDDB7FA1A9822BE0073923A;
+			productRefGroup = 6FDDB8041A9822BE0073923A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDDB8021A9822BE0073923A /* RandomImageUploadClient */,
+				6FDDB8181A9822BE0073923A /* RandomImageUploadClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FDDB8011A9822BE0073923A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDDB8111A9822BE0073923A /* Images.xcassets in Resources */,
+				6FDDB8141A9822BE0073923A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDDB8171A9822BE0073923A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FDDB7FF1A9822BE0073923A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDDB80F1A9822BE0073923A /* ViewController.m in Sources */,
+				6FDDB80C1A9822BE0073923A /* main.m in Sources */,
+				6FDDB80A1A9822BE0073923A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDDB8151A9822BE0073923A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDDB8201A9822BE0073923A /* RandomImageUploadClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FDDB81B1A9822BE0073923A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FDDB8021A9822BE0073923A /* RandomImageUploadClient */;
+			targetProxy = 6FDDB81A1A9822BE0073923A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FDDB8121A9822BE0073923A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FDDB8131A9822BE0073923A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FDDB8211A9822BE0073923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6FDDB8221A9822BE0073923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6FDDB8241A9822BE0073923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RandomImageUploadClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FDDB8251A9822BE0073923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RandomImageUploadClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FDDB8271A9822BE0073923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RandomImageUploadClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomImageUploadClient.app/Contents/MacOS/RandomImageUploadClient";
+			};
+			name = Debug;
+		};
+		6FDDB8281A9822BE0073923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RandomImageUploadClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomImageUploadClient.app/Contents/MacOS/RandomImageUploadClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FDDB7FE1A9822BE0073923A /* Build configuration list for PBXProject "RandomImageUploadClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDDB8211A9822BE0073923A /* Debug */,
+				6FDDB8221A9822BE0073923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDDB8231A9822BE0073923A /* Build configuration list for PBXNativeTarget "RandomImageUploadClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDDB8241A9822BE0073923A /* Debug */,
+				6FDDB8251A9822BE0073923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FDDB8261A9822BE0073923A /* Build configuration list for PBXNativeTarget "RandomImageUploadClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDDB8271A9822BE0073923A /* Debug */,
+				6FDDB8281A9822BE0073923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FDDB7FB1A9822BE0073923A /* Project object */;
+}
