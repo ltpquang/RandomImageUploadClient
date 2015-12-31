@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5811ED1A98F03B001FADB4 /* PQBooleanValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5811EC1A98F03B001FADB4 /* PQBooleanValueTransformer.m */; };
+		6FC5A9871A98874D0087EEA8 /* PQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC5A9861A98874D0087EEA8 /* PQImage.m */; };
 		6FDDB80A1A9822BE0073923A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB8091A9822BE0073923A /* AppDelegate.m */; };
 		6FDDB80C1A9822BE0073923A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB80B1A9822BE0073923A /* main.m */; };
 		6FDDB80F1A9822BE0073923A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB80E1A9822BE0073923A /* ViewController.m */; };
 		6FDDB8111A9822BE0073923A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDDB8101A9822BE0073923A /* Images.xcassets */; };
 		6FDDB8141A9822BE0073923A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDDB8121A9822BE0073923A /* Main.storyboard */; };
 		6FDDB8201A9822BE0073923A /* RandomImageUploadClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDB81F1A9822BE0073923A /* RandomImageUploadClientTests.m */; };
+		6FDDB82C1A9842460073923A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB82A1A9842460073923A /* Bolts.framework */; };
+		6FDDB82D1A9842460073923A /* ParseOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB82B1A9842460073923A /* ParseOSX.framework */; };
+		6FDDB82F1A9842770073923A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB82E1A9842770073923A /* CFNetwork.framework */; };
+		6FDDB8311A9842860073923A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB8301A9842860073923A /* CoreGraphics.framework */; };
+		6FDDB8331A98428C0073923A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB8321A98428C0073923A /* CoreLocation.framework */; };
+		6FDDB8351A9842940073923A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB8341A9842940073923A /* QuartzCore.framework */; };
+		6FDDB8371A98429B0073923A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB8361A98429B0073923A /* Security.framework */; };
+		6FDDB8391A9842A70073923A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB8381A9842A70073923A /* SystemConfiguration.framework */; };
+		6FDDB83B1A9842B10073923A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB83A1A9842B10073923A /* libsqlite3.dylib */; };
+		6FDDB83D1A9842B70073923A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDDB83C1A9842B70073923A /* libz.dylib */; };
+		6FDDB83F1A9843090073923A /* Bolts.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FDDB82A1A9842460073923A /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FDDB8401A9843090073923A /* ParseOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FDDB82B1A9842460073923A /* ParseOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +39,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6FDDB83E1A9842F90073923A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6FDDB83F1A9843090073923A /* Bolts.framework in CopyFiles */,
+				6FDDB8401A9843090073923A /* ParseOSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6F5811EB1A98F03B001FADB4 /* PQBooleanValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQBooleanValueTransformer.h; sourceTree = "<group>"; };
+		6F5811EC1A98F03B001FADB4 /* PQBooleanValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQBooleanValueTransformer.m; sourceTree = "<group>"; };
+		6FC5A9851A98874D0087EEA8 /* PQImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQImage.h; sourceTree = "<group>"; };
+		6FC5A9861A98874D0087EEA8 /* PQImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQImage.m; sourceTree = "<group>"; };
+		6FC5A9881A988BB50087EEA8 /* PQImageCategoryEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PQImageCategoryEnum.h; sourceTree = "<group>"; };
 		6FDDB8031A9822BE0073923A /* RandomImageUploadClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomImageUploadClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDDB8071A9822BE0073923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FDDB8081A9822BE0073923A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +71,16 @@
 		6FDDB8191A9822BE0073923A /* RandomImageUploadClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomImageUploadClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDDB81E1A9822BE0073923A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FDDB81F1A9822BE0073923A /* RandomImageUploadClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomImageUploadClientTests.m; sourceTree = "<group>"; };
+		6FDDB82A1A9842460073923A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6FDDB82B1A9842460073923A /* ParseOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseOSX.framework; sourceTree = "<group>"; };
+		6FDDB82E1A9842770073923A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6FDDB8301A9842860073923A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FDDB8321A98428C0073923A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6FDDB8341A9842940073923A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FDDB8361A98429B0073923A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6FDDB8381A9842A70073923A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6FDDB83A1A9842B10073923A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6FDDB83C1A9842B70073923A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +88,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDDB83D1A9842B70073923A /* libz.dylib in Frameworks */,
+				6FDDB83B1A9842B10073923A /* libsqlite3.dylib in Frameworks */,
+				6FDDB8391A9842A70073923A /* SystemConfiguration.framework in Frameworks */,
+				6FDDB8371A98429B0073923A /* Security.framework in Frameworks */,
+				6FDDB8351A9842940073923A /* QuartzCore.framework in Frameworks */,
+				6FDDB8331A98428C0073923A /* CoreLocation.framework in Frameworks */,
+				6FDDB8311A9842860073923A /* CoreGraphics.framework in Frameworks */,
+				6FDDB82F1A9842770073923A /* CFNetwork.framework in Frameworks */,
+				6FDDB82C1A9842460073923A /* Bolts.framework in Frameworks */,
+				6FDDB82D1A9842460073923A /* ParseOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +138,13 @@
 				6FDDB80E1A9822BE0073923A /* ViewController.m */,
 				6FDDB8101A9822BE0073923A /* Images.xcassets */,
 				6FDDB8121A9822BE0073923A /* Main.storyboard */,
+				6FDDB8291A9842370073923A /* Frameworks */,
 				6FDDB8061A9822BE0073923A /* Supporting Files */,
+				6FC5A9851A98874D0087EEA8 /* PQImage.h */,
+				6FC5A9861A98874D0087EEA8 /* PQImage.m */,
+				6FC5A9881A988BB50087EEA8 /* PQImageCategoryEnum.h */,
+				6F5811EB1A98F03B001FADB4 /* PQBooleanValueTransformer.h */,
+				6F5811EC1A98F03B001FADB4 /* PQBooleanValueTransformer.m */,
 			);
 			path = RandomImageUploadClient;
 			sourceTree = "<group>";
@@ -116,6 +175,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6FDDB8291A9842370073923A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDB83C1A9842B70073923A /* libz.dylib */,
+				6FDDB83A1A9842B10073923A /* libsqlite3.dylib */,
+				6FDDB8381A9842A70073923A /* SystemConfiguration.framework */,
+				6FDDB8361A98429B0073923A /* Security.framework */,
+				6FDDB8341A9842940073923A /* QuartzCore.framework */,
+				6FDDB8321A98428C0073923A /* CoreLocation.framework */,
+				6FDDB8301A9842860073923A /* CoreGraphics.framework */,
+				6FDDB82E1A9842770073923A /* CFNetwork.framework */,
+				6FDDB82A1A9842460073923A /* Bolts.framework */,
+				6FDDB82B1A9842460073923A /* ParseOSX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +202,7 @@
 				6FDDB7FF1A9822BE0073923A /* Sources */,
 				6FDDB8001A9822BE0073923A /* Frameworks */,
 				6FDDB8011A9822BE0073923A /* Resources */,
+				6FDDB83E1A9842F90073923A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -215,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC5A9871A98874D0087EEA8 /* PQImage.m in Sources */,
 				6FDDB80F1A9822BE0073923A /* ViewController.m in Sources */,
 				6FDDB80C1A9822BE0073923A /* main.m in Sources */,
+				6F5811ED1A98F03B001FADB4 /* PQBooleanValueTransformer.m in Sources */,
 				6FDDB80A1A9822BE0073923A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +411,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RandomImageUploadClient",
+				);
 				INFOPLIST_FILE = RandomImageUploadClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -343,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RandomImageUploadClient",
+				);
 				INFOPLIST_FILE = RandomImageUploadClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +491,7 @@
 				6FDDB8251A9822BE0073923A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FDDB8261A9822BE0073923A /* Build configuration list for PBXNativeTarget "RandomImageUploadClientTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +500,7 @@
 				6FDDB8281A9822BE0073923A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
